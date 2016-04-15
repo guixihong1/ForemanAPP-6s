@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046710801CC0EE1A00BD42E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467107F1CC0EE1A00BD42E6 /* main.m */; };
+		046710831CC0EE1A00BD42E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046710821CC0EE1A00BD42E6 /* AppDelegate.m */; };
+		046710861CC0EE1A00BD42E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046710851CC0EE1A00BD42E6 /* ViewController.m */; };
+		046710891CC0EE1A00BD42E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046710871CC0EE1A00BD42E6 /* Main.storyboard */; };
+		0467108B1CC0EE1A00BD42E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0467108A1CC0EE1A00BD42E6 /* Assets.xcassets */; };
+		0467108E1CC0EE1A00BD42E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0467108C1CC0EE1A00BD42E6 /* LaunchScreen.storyboard */; };
+		046710991CC0EE1A00BD42E6 /* ForemanAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046710981CC0EE1A00BD42E6 /* ForemanAPPTests.m */; };
+		046710A41CC0EE1A00BD42E6 /* ForemanAPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046710A31CC0EE1A00BD42E6 /* ForemanAPPUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046710951CC0EE1A00BD42E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046710731CC0EE1A00BD42E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0467107A1CC0EE1A00BD42E6;
+			remoteInfo = ForemanAPP;
+		};
+		046710A01CC0EE1A00BD42E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046710731CC0EE1A00BD42E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0467107A1CC0EE1A00BD42E6;
+			remoteInfo = ForemanAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0467107B1CC0EE1A00BD42E6 /* ForemanAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForemanAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0467107F1CC0EE1A00BD42E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		046710811CC0EE1A00BD42E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		046710821CC0EE1A00BD42E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		046710841CC0EE1A00BD42E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		046710851CC0EE1A00BD42E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		046710881CC0EE1A00BD42E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0467108A1CC0EE1A00BD42E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0467108D1CC0EE1A00BD42E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0467108F1CC0EE1A00BD42E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046710941CC0EE1A00BD42E6 /* ForemanAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForemanAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046710981CC0EE1A00BD42E6 /* ForemanAPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForemanAPPTests.m; sourceTree = "<group>"; };
+		0467109A1CC0EE1A00BD42E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0467109F1CC0EE1A00BD42E6 /* ForemanAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForemanAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046710A31CC0EE1A00BD42E6 /* ForemanAPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForemanAPPUITests.m; sourceTree = "<group>"; };
+		046710A51CC0EE1A00BD42E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046710781CC0EE1A00BD42E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046710911CC0EE1A00BD42E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0467109C1CC0EE1A00BD42E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046710721CC0EE1A00BD42E6 = {
+			isa = PBXGroup;
+			children = (
+				0467107D1CC0EE1A00BD42E6 /* ForemanAPP */,
+				046710971CC0EE1A00BD42E6 /* ForemanAPPTests */,
+				046710A21CC0EE1A00BD42E6 /* ForemanAPPUITests */,
+				0467107C1CC0EE1A00BD42E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0467107C1CC0EE1A00BD42E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0467107B1CC0EE1A00BD42E6 /* ForemanAPP.app */,
+				046710941CC0EE1A00BD42E6 /* ForemanAPPTests.xctest */,
+				0467109F1CC0EE1A00BD42E6 /* ForemanAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0467107D1CC0EE1A00BD42E6 /* ForemanAPP */ = {
+			isa = PBXGroup;
+			children = (
+				046710811CC0EE1A00BD42E6 /* AppDelegate.h */,
+				046710821CC0EE1A00BD42E6 /* AppDelegate.m */,
+				046710841CC0EE1A00BD42E6 /* ViewController.h */,
+				046710851CC0EE1A00BD42E6 /* ViewController.m */,
+				046710871CC0EE1A00BD42E6 /* Main.storyboard */,
+				0467108A1CC0EE1A00BD42E6 /* Assets.xcassets */,
+				0467108C1CC0EE1A00BD42E6 /* LaunchScreen.storyboard */,
+				0467108F1CC0EE1A00BD42E6 /* Info.plist */,
+				0467107E1CC0EE1A00BD42E6 /* Supporting Files */,
+			);
+			path = ForemanAPP;
+			sourceTree = "<group>";
+		};
+		0467107E1CC0EE1A00BD42E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0467107F1CC0EE1A00BD42E6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		046710971CC0EE1A00BD42E6 /* ForemanAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				046710981CC0EE1A00BD42E6 /* ForemanAPPTests.m */,
+				0467109A1CC0EE1A00BD42E6 /* Info.plist */,
+			);
+			path = ForemanAPPTests;
+			sourceTree = "<group>";
+		};
+		046710A21CC0EE1A00BD42E6 /* ForemanAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046710A31CC0EE1A00BD42E6 /* ForemanAPPUITests.m */,
+				046710A51CC0EE1A00BD42E6 /* Info.plist */,
+			);
+			path = ForemanAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0467107A1CC0EE1A00BD42E6 /* ForemanAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046710A81CC0EE1A00BD42E6 /* Build configuration list for PBXNativeTarget "ForemanAPP" */;
+			buildPhases = (
+				046710771CC0EE1A00BD42E6 /* Sources */,
+				046710781CC0EE1A00BD42E6 /* Frameworks */,
+				046710791CC0EE1A00BD42E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForemanAPP;
+			productName = ForemanAPP;
+			productReference = 0467107B1CC0EE1A00BD42E6 /* ForemanAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046710931CC0EE1A00BD42E6 /* ForemanAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046710AB1CC0EE1A00BD42E6 /* Build configuration list for PBXNativeTarget "ForemanAPPTests" */;
+			buildPhases = (
+				046710901CC0EE1A00BD42E6 /* Sources */,
+				046710911CC0EE1A00BD42E6 /* Frameworks */,
+				046710921CC0EE1A00BD42E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046710961CC0EE1A00BD42E6 /* PBXTargetDependency */,
+			);
+			name = ForemanAPPTests;
+			productName = ForemanAPPTests;
+			productReference = 046710941CC0EE1A00BD42E6 /* ForemanAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0467109E1CC0EE1A00BD42E6 /* ForemanAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046710AE1CC0EE1A00BD42E6 /* Build configuration list for PBXNativeTarget "ForemanAPPUITests" */;
+			buildPhases = (
+				0467109B1CC0EE1A00BD42E6 /* Sources */,
+				0467109C1CC0EE1A00BD42E6 /* Frameworks */,
+				0467109D1CC0EE1A00BD42E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046710A11CC0EE1A00BD42E6 /* PBXTargetDependency */,
+			);
+			name = ForemanAPPUITests;
+			productName = ForemanAPPUITests;
+			productReference = 0467109F1CC0EE1A00BD42E6 /* ForemanAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046710731CC0EE1A00BD42E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YF;
+				TargetAttributes = {
+					0467107A1CC0EE1A00BD42E6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					046710931CC0EE1A00BD42E6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0467107A1CC0EE1A00BD42E6;
+					};
+					0467109E1CC0EE1A00BD42E6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0467107A1CC0EE1A00BD42E6;
+					};
+				};
+			};
+			buildConfigurationList = 046710761CC0EE1A00BD42E6 /* Build configuration list for PBXProject "ForemanAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046710721CC0EE1A00BD42E6;
+			productRefGroup = 0467107C1CC0EE1A00BD42E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0467107A1CC0EE1A00BD42E6 /* ForemanAPP */,
+				046710931CC0EE1A00BD42E6 /* ForemanAPPTests */,
+				0467109E1CC0EE1A00BD42E6 /* ForemanAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046710791CC0EE1A00BD42E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0467108E1CC0EE1A00BD42E6 /* LaunchScreen.storyboard in Resources */,
+				0467108B1CC0EE1A00BD42E6 /* Assets.xcassets in Resources */,
+				046710891CC0EE1A00BD42E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046710921CC0EE1A00BD42E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0467109D1CC0EE1A00BD42E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046710771CC0EE1A00BD42E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046710861CC0EE1A00BD42E6 /* ViewController.m in Sources */,
+				046710831CC0EE1A00BD42E6 /* AppDelegate.m in Sources */,
+				046710801CC0EE1A00BD42E6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046710901CC0EE1A00BD42E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046710991CC0EE1A00BD42E6 /* ForemanAPPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0467109B1CC0EE1A00BD42E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046710A41CC0EE1A00BD42E6 /* ForemanAPPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046710961CC0EE1A00BD42E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0467107A1CC0EE1A00BD42E6 /* ForemanAPP */;
+			targetProxy = 046710951CC0EE1A00BD42E6 /* PBXContainerItemProxy */;
+		};
+		046710A11CC0EE1A00BD42E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0467107A1CC0EE1A00BD42E6 /* ForemanAPP */;
+			targetProxy = 046710A01CC0EE1A00BD42E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046710871CC0EE1A00BD42E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046710881CC0EE1A00BD42E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0467108C1CC0EE1A00BD42E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0467108D1CC0EE1A00BD42E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046710A61CC0EE1A00BD42E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		046710A71CC0EE1A00BD42E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046710A91CC0EE1A00BD42E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ForemanAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeLink.www.ForemanAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		046710AA1CC0EE1A00BD42E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ForemanAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeLink.www.ForemanAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		046710AC1CC0EE1A00BD42E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ForemanAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeLink.www.ForemanAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForemanAPP.app/ForemanAPP";
+			};
+			name = Debug;
+		};
+		046710AD1CC0EE1A00BD42E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ForemanAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeLink.www.ForemanAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForemanAPP.app/ForemanAPP";
+			};
+			name = Release;
+		};
+		046710AF1CC0EE1A00BD42E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ForemanAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeLink.www.ForemanAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ForemanAPP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		046710B01CC0EE1A00BD42E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ForemanAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeLink.www.ForemanAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ForemanAPP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046710761CC0EE1A00BD42E6 /* Build configuration list for PBXProject "ForemanAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046710A61CC0EE1A00BD42E6 /* Debug */,
+				046710A71CC0EE1A00BD42E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046710A81CC0EE1A00BD42E6 /* Build configuration list for PBXNativeTarget "ForemanAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046710A91CC0EE1A00BD42E6 /* Debug */,
+				046710AA1CC0EE1A00BD42E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		046710AB1CC0EE1A00BD42E6 /* Build configuration list for PBXNativeTarget "ForemanAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046710AC1CC0EE1A00BD42E6 /* Debug */,
+				046710AD1CC0EE1A00BD42E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		046710AE1CC0EE1A00BD42E6 /* Build configuration list for PBXNativeTarget "ForemanAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046710AF1CC0EE1A00BD42E6 /* Debug */,
+				046710B01CC0EE1A00BD42E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046710731CC0EE1A00BD42E6 /* Project object */;
+}
